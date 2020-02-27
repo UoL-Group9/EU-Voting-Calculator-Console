@@ -4,6 +4,7 @@ namespace EU_Voting_Calculator
 {
     class Program
     {
+
         static void Main(string[] args)
         {
             Console.WriteLine("EU Voting calculator");
@@ -11,8 +12,15 @@ namespace EU_Voting_Calculator
             Console.WriteLine("Or type 'a' for an abstain vote");
             Console.WriteLine("Or type 'n' for A no vote");
 
+            Console.Write("Enter Vote for Austria: ");
+            string austriavote = Console.ReadLine();
+            if (austriavote == "y" 
 
 
+
+        }
+
+  
         }
     }
 }

@@ -1,0 +1,8 @@
+﻿How calculating results could be done?
+
+For each country in c countries
+	if vote is > 0 add 1 to memberstateyes and add population to memberpopresult
+	else if vote is < 0 add 1 to memberstateno and add 0.00 to memberpopresult
+	else add 1 to memberstateabs and add 0.00 to memberpopresult
+
+
