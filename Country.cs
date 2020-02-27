@@ -4,9 +4,12 @@ using System.Text;
 
 namespace EU_Voting_Calculator
 {
-    class Country
+    public class Country
     {
-        double population;
-        int vote = 0;
+        public double population { get; set; }
+        public int vote { get; set; }
     }
 }
+
+
+
